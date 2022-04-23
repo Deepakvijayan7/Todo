@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=3.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>Login</title>
+</head>
+<body>
+ 
+   
+<!--Login-->
+<div class="login">
+    <div class="container">
+        <div class="form-box">
+            <form class="form-custom" >
+                <h2 class="text-light text-center">To-Do List Login</h2>
+               
+                <div class="mb-4">
+                    <!-- <label for="Email" class="text-dark">Email address</label> -->
+                    <input type="text" class="form-control" id="username" placeholder="E-mail"  onkeyup="validate()">
+                </div>
+                <div class="">
+                    <!-- <label for="password" class="text-dark">Password</label> -->
+                    <input type="password" class="form-control" id="pswd" placeholder="Password" onkeyup="validate()">
+                    <label id="login_error" class="error-label p-3" style="color:red"></label>
+                </div>
+                <button type="submit " id="loginBtn" class="btn btn-warning w-100 mb-2">Login</button>
+            </form>
+                
+        
+        </div>
+    </div>
+</div>
+<!-- login ends -->
+<script src="js/jquery-min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

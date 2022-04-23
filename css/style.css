@@ -1,0 +1,45 @@
+
+/* login */
+.form-custom input{
+    padding: 12px;
+}
+.form-custom label{
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.login{
+    min-height: 100vh;
+    padding: 150px 0px 100px 0px;
+    background-color: #66a1c6;
+}
+.form-box{
+    padding: 4% ;
+    max-width: 500px;
+    margin: auto;
+    background-color: #252525;
+    border-radius: 10px;
+}
+.form-custom h2{
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.form-custom input[type="text"], .form-custom input[type="password"]{
+    box-shadow: none;
+    border: 1px solid #8e8e8e;
+    border-radius: 10px;
+}
+#demo{
+    padding:20px 0px ;
+}
+#demo li{
+    border-bottom: 1px solid #dedede;
+    padding: 10px 0px;
+    list-style: none;
+    display: flex;
+}
+#loginBtn{
+    border-radius: 10px;
+    padding: 12px;
+}
+
