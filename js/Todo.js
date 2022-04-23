@@ -10,10 +10,10 @@ function ajax(){
         for(i=0;i<response.length;i++){
             
             if(response[i].completed==true){
-              output +="<li><input type='checkbox' id='"+i+"' class='me-3 my-2 checkbox form-check-input'  disabled checked ><label for="+i+">"+response[i].title+"</label></li>";
+              output +="<li><input type='checkbox' id='"+response[i].id+"' class='me-3 my-2 checkbox form-check-input'  disabled checked ><label for="+response[i].id+">"+response[i].title+"</label></li>";
             }
             else{
-              output +="<li><input type='checkbox' id="+i+" class='me-3 my-2 checkbox form-check-input' name='chck'><label for="+i+">"+response[i].title+"</label></li>";
+              output +="<li><input type='checkbox' id="+response[i].id+" class='me-3 my-2 checkbox form-check-input' name='chck'><label for="+response[i].id+">"+response[i].title+"</label></li>";
             }
         }
         document.getElementById("demo").innerHTML=output;
